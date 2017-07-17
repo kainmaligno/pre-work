@@ -1,0 +1,18 @@
+
+print "Welcome:  " 
+
+print "Set name: "
+name = gets.chomp
+
+print "Set Age:  "
+age = gets.chomp.to_i
+
+# name = "salem"
+# age = 33
+
+if name == "salem"  &&  age >= 18 
+  p "Welcome my master ya estas grandecito" 
+else
+  p "No eres Salem y no tienes la edad "
+end
+
